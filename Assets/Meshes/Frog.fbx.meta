@@ -15,6 +15,9 @@ ModelImporter:
   - first:
       74: 5696623425063830493
     second: metarig|TurnLeft
+  - first:
+      74: -4117141807287625387
+    second: metarig|Turn Right (1)
   externalObjects: {}
   materials:
     materialImportMode: 2
