@@ -90,8 +90,8 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
     - _EnvironmentReflections: 1
-    - _FogDensity: 0.015
-    - _FresnelIntensity: 1.05
+    - _FogDensity: 0.02
+    - _FresnelIntensity: 2.1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
