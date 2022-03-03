@@ -128,9 +128,10 @@ GameObject:
   - component: {fileID: 2703528098283582534}
   - component: {fileID: 4043510917947323610}
   - component: {fileID: 7979368895902351379}
+  - component: {fileID: 1995123818797007891}
   m_Layer: 0
   m_Name: Lightball
-  m_TagString: Untagged
+  m_TagString: Lightball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -230,3 +231,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1995123818797007891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6926803422166443106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df96669965cb4d29a0176903c854365a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

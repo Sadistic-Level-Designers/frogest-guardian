@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Food
   - Death
+  - Lightball
   layers:
   - Default
   - TransparentFX

@@ -15,7 +15,7 @@ public class TriggerEffect : DependentTrigger
     public List<GameObject> objectsWhenOn;
 
     void OnEnable() {
-        trigger = GetComponent<TriggerBehaviour>();
+        if(trigger == null) Debug.LogError("This script needs a trigger to activate it!");
     }
 
     void Awake() {
