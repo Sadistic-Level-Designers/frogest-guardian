@@ -234,6 +234,9 @@ MonoBehaviour:
   list:
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   type: 1
 --- !u!114 &4761131234833583577
 MonoBehaviour:

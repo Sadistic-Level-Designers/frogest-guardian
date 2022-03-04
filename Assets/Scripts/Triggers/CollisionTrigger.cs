@@ -24,6 +24,8 @@ public class CollisionTrigger : TriggerBehaviour
         if(!gameObject.activeSelf || this.isActive) return;
 
         bool flag = false;
+
+        Debug.Log(other);
         
         switch(type) {
             case CollisionTriggerType.collider:
