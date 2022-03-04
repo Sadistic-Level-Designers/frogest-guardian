@@ -22,33 +22,28 @@ public class CollisionTrigger : TriggerBehaviour
 
     void OnTriggerEnter(Collider other) {
         if(!gameObject.activeSelf || this.isActive) return;
-
-        bool flag = false;
-
-        Debug.Log(other);
         
         switch(type) {
             case CollisionTriggerType.collider:
                 if(other.gameObject == triggeredByObject.gameObject) {
-                    flag = true;
+                    this.isActive = true;
                 }
                 break;
 
             case CollisionTriggerType.tag:
                 if(other.gameObject.tag == triggeredByTag) {
-                    flag = true;
+                    this.isActive = true;
                 }
                 break;
 
             case CollisionTriggerType.name:
                 if(other.gameObject.name == triggeredByName) {
-                    flag = true;
+                    this.isActive = true;
                 }
                 break;
         }
 
-        if(flag && this.destroyOnContact) {
-            this.isActive = true;
+        if(this.isActive && this.destroyOnContact) {
             GameObject.Destroy(other.gameObject);
         }
     }
