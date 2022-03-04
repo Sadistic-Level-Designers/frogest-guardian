@@ -16,7 +16,6 @@ public class WheelTurnScript : MonoBehaviour
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
         angle = angle * -1 + 90;
-        Debug.Log(angle);
 
         foreach(Transform w in wheels) {
             w.localEulerAngles = new Vector3(0, dir.sqrMagnitude > 0 ? angle : 0, 0);
