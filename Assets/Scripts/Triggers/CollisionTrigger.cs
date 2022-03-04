@@ -21,7 +21,7 @@ public class CollisionTrigger : TriggerBehaviour
 
 
     void OnTriggerEnter(Collider other) {
-        if(!gameObject.activeSelf || this.isActive) return;
+        if(!gameObject.activeSelf || !this.enabled || this.isActive) return;
         
         switch(type) {
             case CollisionTriggerType.collider:
