@@ -82,9 +82,9 @@ Material:
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
-    - _CausticsAlpha: 0.266
+    - _CausticsAlpha: 0.07
     - _CausticsContrast: 9
-    - _CausticsDensity: 2
+    - _CausticsDensity: 0.83
     - _CausticsSpeed: 2
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -92,8 +92,8 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DistorsionAlpha: 0.03
-    - _DistorsionDepth: 12.5
+    - _DistorsionAlpha: 0.02
+    - _DistorsionDepth: 24
     - _DistorsionScale: 80
     - _DistorsionSpeed: 0.1
     - _DistorsionStrength: 1.5
@@ -114,7 +114,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
-    - _SurfaceAlpha: 0.95
+    - _SurfaceAlpha: 0.98
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
