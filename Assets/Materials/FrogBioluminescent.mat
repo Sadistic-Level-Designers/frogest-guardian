@@ -117,7 +117,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _SSSConcentration: 8
-    - _SSSScale: 5
+    - _SSSScale: 8
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
